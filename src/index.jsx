@@ -32,11 +32,10 @@ class MyComponent extends Component {
         <div
           className="throbber"
           style={{
-            background: `url(${throbber}) center no-repeat`,
-            backgroundSize: "contain",
-            display: visible ? "initial" : "none",
-            minWidth: "20px",
-            minHeight: "20px",
+            background: `url(${throbber}) center / contain no-repeat`,
+            display: visible ? "inherit" : "none",
+            minWidth: "40px",
+            minHeight: "40px",
           }}
         />
       </div>
