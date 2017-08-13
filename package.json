@@ -1,5 +1,5 @@
 {
-  "name": "@meth-meth-method/react-package-boilerplate",
+  "name": "my-component",
   "description": "Boiler plate for creating React component NPM packages.",
   "version": "0.0.0",
   "license": "ISC",
