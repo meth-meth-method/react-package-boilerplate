@@ -1,0 +1,29 @@
+{
+  "name": "@meth-meth-method/react-package-boilerplate",
+  "description": "Boiler plate for creating React component NPM packages.",
+  "version": "0.0.0",
+  "license": "ISC",
+  "author": "Pontus Alexander <pontus.alexander@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meth-meth-method/react-package-boilerplate.git"
+  },
+  "scripts": {
+    "autoformat": "prettier --trailing-comma es5 --write './src/**/*.{js,jsx}'",
+    "build": "babel ./src/ --out-dir ./dist"
+  },
+  "main": "dist/index.js",
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-plugin-inline-import-data-uri": "^0.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "prettier": "^1.5.3"
+  }
+}
