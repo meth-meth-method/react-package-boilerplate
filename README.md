@@ -1,3 +1,3 @@
 # React Package Boilerplate
 
-A boilerplate repo for creating redistributable React components.
+A boilerplate repo for creating distributable React components.
