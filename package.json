@@ -4,10 +4,6 @@
   "version": "0.0.0",
   "license": "ISC",
   "author": "Pontus Alexander <pontus.alexander@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/meth-meth-method/react-package-boilerplate.git"
-  },
   "scripts": {
     "autoformat": "prettier --trailing-comma es5 --write './src/**/*.{js,jsx}'",
     "build": "babel ./src/ --out-dir ./dist"
